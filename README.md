@@ -111,9 +111,3 @@ For questions or feedback, feel free to open an issue on the GitHub repository o
 Enjoy more efficient and stable game data management with GameSheets!
 
 ```
-
-### Changes:
-- Updated the **License** section to clarify that GameSheets is based on **phpMyAdmin** and follows the **GPL v2** license, which is phpMyAdmin's original license.
-- The license text should now correctly reflect the open-source nature of your modification based on phpMyAdmin's licensing.
-
-Let me know if you need further adjustments!
