@@ -47,10 +47,11 @@ npm run dev
 cd frontend
 npm run dev
 ```
-📌 ** To run backend / frontend simuntaniusly you will need to run the following command **  
+📌 **To run backend / frontend simuntaniusly you will need to run the following command**  
+
 ```sh
 
-./start-server.sh
+cd backend/scripts && ./start-server.sh
 
 ```
 ---
