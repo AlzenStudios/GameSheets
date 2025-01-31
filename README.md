@@ -47,8 +47,12 @@ npm run dev
 cd frontend
 npm run dev
 ```
-📌 **Runs the Next.js dashboard for managing game data.**  
+📌 ** To run backend / frontend simuntaniusly you will need to run the following command **  
+```sh
 
+./start-server.sh
+
+```
 ---
 
 ## **🛠️ Features**
@@ -60,26 +64,16 @@ npm run dev
 
 ---
 
-## **🌎 Git Commands (Easy Mode)**
-Run the **Git helper script** to manage commits and pushes easily:  
-```sh
-./progit.sh
-```
 **Options:**
 1️⃣ Add & Commit  
 2️⃣ Pull latest changes  
 3️⃣ Push to GitHub  
 4️⃣ View Status  
 5️⃣ View Log  
-
 ---
 
 ## **💾 Database Setup**
 1️⃣ **MySQL Setup (If Using MySQL)**
-```sh
-CREATE DATABASE gamesheets;
-```
-2️⃣ **PostgreSQL Setup (If Using PostgreSQL)**
 ```sh
 CREATE DATABASE gamesheets;
 ```
