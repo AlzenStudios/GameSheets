@@ -66,9 +66,9 @@ npm run dev
 
 ## **💾 Database Setup**
 1️⃣ **MySQL Setup (If Using MySQL)**
-locate do ```sh backend ``` and start and new cmd instance from there and then run command ```sh ./mysql-shake.sh {other_arguments} ``` here you can run mysql commands to the database
+locate to ``` cd backend/scripts ``` and start a new cmd instance from there, and run command ``` ./mysql-handshake.sh {other_mysql_arguments} ``` here you can run mysql commands to the database easly, to create an new database run the following command under here:
 ```sh
-CREATE DATABASE gamesheets;
+./mysql-handshake.sh CREATE DATABASE gamesheets;
 ```
 3️⃣ **Configure `.env` in `backend/`**
 ```ini
