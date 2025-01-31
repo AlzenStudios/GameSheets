@@ -64,16 +64,9 @@ npm run dev
 
 ---
 
-**Options:**
-1️⃣ Add & Commit  
-2️⃣ Pull latest changes  
-3️⃣ Push to GitHub  
-4️⃣ View Status  
-5️⃣ View Log  
----
-
 ## **💾 Database Setup**
 1️⃣ **MySQL Setup (If Using MySQL)**
+locate do ```sh backend ``` and start and new cmd instance from there and then run command ```sh ./mysql-shake.sh {other_arguments} ``` here you can run mysql commands to the database
 ```sh
 CREATE DATABASE gamesheets;
 ```
