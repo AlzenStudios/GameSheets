@@ -1,0 +1,19 @@
+{
+  "name": "gamesheets",
+  "version": "1.0.0",
+  "description": "an database managament tool for games",
+  "main": "backend/entry.js",
+  "scripts": {
+    "test": "node backend/entry.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlzenStudios/GameSheets.git"
+  },
+  "author": "mvoud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlzenStudios/GameSheets/issues"
+  },
+  "homepage": "https://github.com/AlzenStudios/GameSheets#readme"
+}

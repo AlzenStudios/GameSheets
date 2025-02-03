@@ -1,0 +1,69 @@
+{
+    "backend": {
+        "php": {
+            "error_reporting": "E_ALL",
+            "display_errors": "On",
+            "display_startup_errors": "On",
+            "log_errors": "On",
+            "error_log": "resources/output/php_errors.log",
+            "max_execution_time": 30,
+            "memory_limit": "128M",
+            "post_max_size": "8M",
+            "upload_max_filesize": "2M",
+            "max_input_time": 60,
+            "max_input_vars": 1000,
+            "default_charset": "UTF-8",
+            "file_uploads": "On",
+            "allow_url_fopen": "On",
+            "allow_url_include": "Off",
+            "short_open_tag": "Off",
+            "expose_php": "Off",
+            "session": {
+              "session.save_handler": "files",
+              "session.save_path": "resources/php/sessions",
+              "session.gc_maxlifetime": 1440,
+              "session.cookie_httponly": "On",
+              "session.cookie_secure": "Off",
+              "session.use_only_cookies": "On"
+            },
+            "opcache": {
+              "opcache.enable": "On",
+              "opcache.memory_consumption": 128,
+              "opcache.max_accelerated_files": 10000,
+              "opcache.validate_timestamps": "On",
+              "opcache.revalidate_freq": 2
+            },
+            "date": {
+              "date.timezone": "UTC"
+            },
+            "pdo": {
+              "pdo_mysql.default_socket": "/var/run/mysqld/mysqld.sock"
+            },
+            "mysqli": {
+              "mysqli.allow_persistent": "On",
+              "mysqli.max_persistent": -1,
+              "mysqli.default_socket": "/var/run/mysqld/mysqld.sock"
+            }
+        }   
+    },
+    "frontend": {
+        "pages": {
+            "test-dev": {
+                "path": "frontend/pages/test.html"
+            }
+        }
+    },
+    "general": {
+       "host": "127.0.0.1",
+       "port": "7990 - 8990", 
+       "database": {
+            "name": "mydb",
+            "server_rules": {
+                "blacklist": "resources/configurations/blacklist.map",
+                "whitelist": "resources/configurations/whitelist.map",
+                "connections": "resources/configurations/connections.map"
+            },
+            "env": "resources/configurations/.env"
+       } 
+    }
+} 
